@@ -1,0 +1,56 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    position: relative;
+    inset: 0;
+    width: 50%;
+    height: 40%;
+    box-shadow: 0 0 5px -3px #000;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.modal span{
+    font-size: 64px;
+    width: 100%;
+}
+
+.modal .container{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 40%;
+}
+
+.container button{
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: medium;
+}
+.container button:hover{
+    filter: brightness(0.75);
+    cursor: pointer;
+}
+
+.container button.playAgain{
+    background-color: #228B22;
+    color: #fff;
+}
