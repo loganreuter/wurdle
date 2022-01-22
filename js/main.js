@@ -157,8 +157,10 @@ class Game {
 
     reset(){
         // this.keyboard.remove()
-        let app = new Game();
+        new Game();
     }
 }
 
+
+document.body.style.height = `${window.innerHeight}px`;
 var game = new Game();

@@ -1,0 +1,50 @@
+@media screen and (max-width: 760px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    #full-container{
+        flex: 1 1 auto;
+        row-gap: 20px;
+    }
+
+    .key{
+        font-size: 12px;
+        aspect-ratio: 1/2;
+        width: 30px;
+    }
+    .key:hover{
+        cursor: pointer;
+        filter: brightness(1);
+    }
+    .key.special{
+        height: 60px;
+        width: 40px;
+    }
+
+    .modal{
+        border-radius: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal .container{
+        bottom: 5%;
+        margin: auto;
+        column-gap: 20%;
+    }
+
+    .container button{
+        min-width: fit-content;
+        color: #000
+    }
+
+    .container button:hover {
+        filter: brightness(1);
+    }
+}
